@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9ab48be-ab78-43c0-922b-ea72dd7eb686" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/DesktopAppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LoginExampleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SimpleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SimpleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LoginExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoginExampleTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -59,7 +56,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="2" />
-          <entry key="JAVA" value="389" />
+          <entry key="JAVA" value="479" />
           <entry key="PLAIN_TEXT" value="5" />
         </counts>
       </usages-collector>
@@ -92,7 +89,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/DesktopAppTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="597">
+            <state relative-caret-position="291">
               <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -104,8 +101,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/LoginExampleTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+            <state relative-caret-position="408">
+              <caret line="30" column="42" lean-forward="true" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#598#599#0" expanded="true" />
@@ -521,7 +518,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -567,7 +564,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568213652172" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568214773244" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -653,9 +650,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DesktopAppTest - 2019.09.11 at 12h 24m 56s.xml">
-      <configuration name="DesktopAppTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="DesktopAppTest - 2019.09.11 at 12h 25m 51s.xml">
       <configuration name="DesktopAppTest" configurationId="TestNG" />
     </history-entry>
@@ -681,6 +675,9 @@
       <configuration name="LoginExampleTest" configurationId="TestNG" />
     </history-entry>
     <history-entry file="LoginExampleTest - 2019.09.11 at 17h 53m 03s.xml">
+      <configuration name="LoginExampleTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginExampleTest - 2019.09.11 at 18h 10m 38s.xml">
       <configuration name="LoginExampleTest" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -746,16 +743,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DesktopAppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="597">
-          <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SimpleTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
@@ -767,10 +754,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DesktopAppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/LoginExampleTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+        <state relative-caret-position="408">
+          <caret line="30" column="42" lean-forward="true" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#598#599#0" expanded="true" />
