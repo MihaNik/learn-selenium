@@ -29,10 +29,13 @@ public class SimpleTest {
         wait.until(titleIs("webdriver - Поиск в Google"));
     }
 
+
+
+
     @AfterMethod
     public void stop(){
         driver.quit();
-        driver = null;
+       driver = null;
     }
 
 
