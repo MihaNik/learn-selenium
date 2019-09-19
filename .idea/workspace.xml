@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9ab48be-ab78-43c0-922b-ea72dd7eb686" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ElementsSearchTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/MenuNavigateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/MenuNavigateTest2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MenuNavigateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MenuNavigateTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -51,14 +51,14 @@
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="Groovy" value="4" />
-          <entry key="JAVA" value="17" />
+          <entry key="JAVA" value="18" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="2" />
-          <entry key="JAVA" value="2365" />
+          <entry key="JAVA" value="2434" />
           <entry key="PLAIN_TEXT" value="5" />
         </counts>
       </usages-collector>
@@ -108,11 +108,22 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/MenuNavigateTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+            <state relative-caret-position="415">
+              <caret line="71" column="8" selection-start-line="71" selection-start-column="8" selection-end-line="71" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#699#700#0" expanded="true" />
+                <element signature="e#761#762#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/MenuNavigateTest2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="704">
+              <caret line="66" column="41" selection-start-line="66" selection-start-column="41" selection-end-line="66" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -538,6 +549,7 @@
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/test/java/ElementsSearchTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/SimpleTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/MenuNavigateTest2.java" />
         <option value="$PROJECT_DIR$/src/test/java/MenuNavigateTest.java" />
       </list>
     </option>
@@ -706,7 +718,12 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568825056431" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568884775196" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -802,12 +819,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MenuNavigateTest - 2019.09.18 at 19h 00m 41s.xml">
-      <configuration name="MenuNavigateTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="MenuNavigateTest - 2019.09.18 at 19h 08m 49s.xml">
-      <configuration name="MenuNavigateTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="MenuNavigateTest - 2019.09.18 at 19h 15m 18s.xml">
       <configuration name="MenuNavigateTest" configurationId="TestNG" />
     </history-entry>
@@ -832,12 +843,18 @@
     <history-entry file="MenuNavigateTest - 2019.09.18 at 19h 41m 22s.xml">
       <configuration name="MenuNavigateTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="MenuNavigateTest - 2019.09.18 at 19h 44m 04s.xml">
+      <configuration name="MenuNavigateTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MenuNavigateTest - 2019.09.18 at 19h 44m 29s.xml">
+      <configuration name="MenuNavigateTest" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -846,7 +863,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -869,24 +886,6 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/MenuNavigateTest.java</url>
-          <line>85</line>
-          <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/MenuNavigateTest.java</url>
-          <line>53</line>
-          <properties />
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/out/test/classes/SimpleTest.class">
@@ -1021,12 +1020,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MenuNavigateTest2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="66" column="41" selection-start-line="66" selection-start-column="41" selection-end-line="66" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MenuNavigateTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+        <state relative-caret-position="415">
+          <caret line="71" column="8" selection-start-line="71" selection-start-column="8" selection-end-line="71" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#699#700#0" expanded="true" />
+            <element signature="e#761#762#0" expanded="true" />
           </folding>
         </state>
       </provider>
