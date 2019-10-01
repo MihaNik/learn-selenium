@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9ab48be-ab78-43c0-922b-ea72dd7eb686" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/SortCountries.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SortCountries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SortCountries.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -51,14 +50,14 @@
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="Groovy" value="4" />
-          <entry key="JAVA" value="28" />
+          <entry key="JAVA" value="29" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="2" />
-          <entry key="JAVA" value="3724" />
+          <entry key="JAVA" value="4015" />
           <entry key="PLAIN_TEXT" value="5" />
         </counts>
       </usages-collector>
@@ -69,8 +68,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/SortCountries.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="66" column="53" lean-forward="true" selection-start-line="66" selection-start-column="53" selection-end-line="66" selection-end-column="53" />
+            <state relative-caret-position="432">
+              <caret line="75" column="61" lean-forward="true" selection-start-line="75" selection-start-column="61" selection-end-line="75" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#687#688#0" expanded="true" />
@@ -549,6 +548,45 @@
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="test-selenium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="test-selenium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.testng:testng:7.0.0" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="test-selenium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.testng:testng:7.0.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="testng-7.0.0.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test-selenium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.testng:testng:7.0.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="testng-7.0.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test-selenium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.testng:testng:7.0.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="testng-7.0.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="testng" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test-selenium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.testng:testng:7.0.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="testng-7.0.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="testng" type="462c0819:PsiDirectoryNode" />
+              <item name="internal" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -556,7 +594,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569950606687" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569964016533" />
     <property name="last_opened_file_path" value="E:/WebPrismaQA" />
   </component>
   <component name="RecentsManager">
@@ -658,34 +696,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SortCountries - 2019.10.01 at 18h 50m 50s.xml">
+    <history-entry file="SortCountries - 2019.10.01 at 22h 53m 27s.xml">
       <configuration name="SortCountries" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SortCountries - 2019.10.01 at 19h 31m 47s.xml">
+    <history-entry file="SortCountries - 2019.10.01 at 22h 59m 01s.xml">
       <configuration name="SortCountries" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SortCountries - 2019.10.01 at 19h 34m 49s.xml">
+    <history-entry file="SortCountries - 2019.10.01 at 23h 08m 16s.xml">
       <configuration name="SortCountries" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SortCountries - 2019.10.01 at 19h 55m 53s.xml">
+    <history-entry file="SortCountries - 2019.10.01 at 23h 14m 42s.xml">
       <configuration name="SortCountries" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SortCountries - 2019.10.01 at 19h 59m 19s.xml">
+    <history-entry file="SortCountries - 2019.10.01 at 23h 22m 59s.xml">
       <configuration name="SortCountries" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SortCountries - 2019.10.01 at 19h 59m 51s.xml">
+    <history-entry file="SortCountries - 2019.10.01 at 23h 24m 10s.xml">
       <configuration name="SortCountries" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SortCountries - 2019.10.01 at 20h 04m 28s.xml">
+    <history-entry file="SortCountries - 2019.10.01 at 23h 52m 20s.xml">
       <configuration name="SortCountries" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SortCountries - 2019.10.01 at 20h 12m 48s.xml">
+    <history-entry file="SortCountries - 2019.10.01 at 23h 53m 24s.xml">
       <configuration name="SortCountries" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SortCountries - 2019.10.01 at 20h 13m 19s.xml">
+    <history-entry file="SortCountries - 2019.10.01 at 23h 54m 39s.xml">
       <configuration name="SortCountries" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SortCountries - 2019.10.01 at 20h 15m 13s.xml">
+    <history-entry file="SortCountries - 2019.10.01 at 23h 56m 35s.xml">
       <configuration name="SortCountries" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -726,6 +764,20 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="setValue">
+      <expression>
+        <expression-string>35</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>37</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/out/test/classes/SimpleTest.class">
       <provider selected="true" editor-type-id="text-editor" />
@@ -750,13 +802,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="328">
           <caret line="54" selection-start-line="54" selection-end-line="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/7.0.0/5a0241ace5a7b8eb3d31556a7d5dd2b3aae9baf/testng-7.0.0-sources.jar!/org/testng/internal/TestInvoker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="171" selection-start-line="171" selection-end-line="171" />
         </state>
       </provider>
     </entry>
@@ -866,10 +911,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/7.0.0/5a0241ace5a7b8eb3d31556a7d5dd2b3aae9baf/testng-7.0.0-sources.jar!/org/testng/internal/TestInvoker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="594" selection-start-line="594" selection-end-line="594" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SortCountries.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="66" column="53" lean-forward="true" selection-start-line="66" selection-start-column="53" selection-end-line="66" selection-end-column="53" />
+        <state relative-caret-position="432">
+          <caret line="75" column="61" lean-forward="true" selection-start-line="75" selection-start-column="61" selection-end-line="75" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#687#688#0" expanded="true" />

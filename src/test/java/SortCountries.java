@@ -52,28 +52,34 @@ public class SortCountries {
         driver.get("http://localhost/litecart/admin/?app=countries&doc=countries");
         Assert.assertEquals(driver.findElement(By.cssSelector("td#content h1")).getText(), "Countries");
 
-        List<String> countries = driver
-                .findElements(countriesList)
-                .stream()
-                .map(WebElement -> WebElement.findElement(By.cssSelector("td a")).getText())
-                .collect(Collectors.toList());
 
+        //check countries sort
+        List<String> countries = driver
+                .findElements(By.cssSelector("table.dataTable tr.row td:nth-child(5)"))
+                .stream()
+                .map(WebElement -> WebElement.getText())
+                .collect(Collectors.toList());
         Assert.assertTrue(isCollectionSorted(countries));
 
-
+        //check zones sort
         for (int i = 0; i < driver.findElements(countriesList).size(); i++) {
-            String zoneCount = driver.findElements(countriesList).get(i).findElements(By.cssSelector("td")).get(5).getText();
-            if(!Objects.equals(Integer.parseInt(zoneCount), 0)){
-                System.out.println("count i = " +i );
+            String zoneCount = driver.findElements(By.cssSelector("table.dataTable tr.row td:nth-child(6)")).get(i).getText();
+            if (!Objects.equals(Integer.parseInt(zoneCount), 0)) {
+                driver.findElements(By.cssSelector("table.dataTable tr.row td:nth-child(5) a")).get(i).click();
+
+                List<String> zones = driver
+                        .findElements(By.cssSelector("table#table-zones tr:not(.header) td:nth-child(3)"))
+                        .stream()
+                        .map(WebElement -> WebElement.getText())
+                        .collect(Collectors.toList());
+                zones.remove(zones.size() - 1);
+                Assert.assertTrue(isCollectionSorted(zones));
+
+                driver.findElement(By.cssSelector("button[name=cancel]")).click();
 
             }
 
-
-
-
-
         }
-
 
     }
 
