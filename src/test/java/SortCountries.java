@@ -11,7 +11,6 @@ import org.testng.annotations.Test;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-import java.util.Objects;
 import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
 
@@ -19,7 +18,6 @@ public class SortCountries {
 
     private WebDriver driver;
     private WebDriverWait wait;
-    private By countriesList = By.cssSelector("table.dataTable tr.row");
 
     private boolean areElementsPresent(WebDriver driver, By locator) {
         return driver.findElements(locator).size() > 0;
@@ -39,19 +37,19 @@ public class SortCountries {
         wait = new WebDriverWait(driver, 10);
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 
-    }
-
-    @Test
-    public void checkSort() {
         driver.get("http://localhost/litecart/admin/login.php");
         //login with app
         driver.findElement(By.name("username")).sendKeys("admin");
         driver.findElement(By.name("password")).sendKeys("admin");
         driver.findElement(By.name("login")).click();
         Assert.assertTrue(areElementsPresent(driver, By.cssSelector("ul#box-apps-menu")));
+
+    }
+
+    @Test
+    public void checkSortCountries() {
         driver.get("http://localhost/litecart/admin/?app=countries&doc=countries");
         Assert.assertEquals(driver.findElement(By.cssSelector("td#content h1")).getText(), "Countries");
-
 
         //check countries sort
         List<String> countries = driver
@@ -62,9 +60,9 @@ public class SortCountries {
         Assert.assertTrue(isCollectionSorted(countries));
 
         //check zones sort
-        for (int i = 0; i < driver.findElements(countriesList).size(); i++) {
+        for (int i = 0; i < driver.findElements(By.cssSelector("table.dataTable tr.row")).size(); i++) {
             String zoneCount = driver.findElements(By.cssSelector("table.dataTable tr.row td:nth-child(6)")).get(i).getText();
-            if (!Objects.equals(Integer.parseInt(zoneCount), 0)) {
+            if (Integer.parseInt(zoneCount) != 0) {
                 driver.findElements(By.cssSelector("table.dataTable tr.row td:nth-child(5) a")).get(i).click();
 
                 List<String> zones = driver
@@ -82,6 +80,28 @@ public class SortCountries {
         }
 
     }
+
+    @Test
+    public void checkSortZones() {
+        driver.get("http://localhost/litecart/admin/?app=geo_zones&doc=geo_zones");
+        Assert.assertEquals(driver.findElement(By.cssSelector("td#content h1")).getText(), "Geo Zones");
+        //check zones sort
+        for (int i = 0; i < driver.findElements(By.cssSelector("table.dataTable tr.row td:nth-child(3) a")).size(); i++) {
+            driver.findElements(By.cssSelector("table.dataTable tr.row td:nth-child(3) a")).get(i).click();
+            List<String> zones = driver
+                    .findElements(By.cssSelector("table#table-zones  td:nth-child(3) option[selected= selected]"))
+                    .stream()
+                    .map(WebElement -> WebElement.getText())
+                    .collect(Collectors.toList());
+
+            Assert.assertTrue(isCollectionSorted(zones));
+            driver.findElement(By.cssSelector("button[name=cancel]")).click();
+
+
+        }
+
+    }
+
 
     @AfterMethod
     public void stop() {
