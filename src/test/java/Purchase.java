@@ -4,6 +4,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
@@ -23,7 +24,7 @@ public class Purchase {
     By descPrice = By.cssSelector("div#box-product s");
     By descDiscPrice = By.cssSelector("div#box-product strong.campaign-price");
 
-    By select = By.cssSelector("td.options");
+    By select = By.cssSelector("select[name='options[Size]']");
 
 
     private boolean areElementsPresent(WebDriver driver, By locator) {
@@ -32,13 +33,12 @@ public class Purchase {
 
 
     private void addGood(int num) {
-        driver.get("http://litecart.stqa.ru");
+        driver.get("http://litecart.stqa.ru/en/");
         String quant = driver.findElement(By.cssSelector("div#cart span.quantity")).getText();
         driver.findElements(By.cssSelector("div#box-most-popular li.product a.link")).get(num).click();
-        if (areElementsPresent(driver, select)) {
-            driver.get("http://litecart.stqa.ru");
-            num = num + 1;
-            driver.findElements(By.cssSelector("div#box-most-popular li.product a.link")).get(num).click();
+        if (driver.findElements(By.cssSelector("div.buy_now tr")).size()==2) {
+            Select size = new Select(driver.findElement(select));
+            size.selectByValue("Large");
         }
         driver.findElement(By.cssSelector("button[name= add_cart_product]")).click();
         wait.until((WebDriver d) -> Integer.parseInt(d.findElement(By.cssSelector("div#cart span.quantity")).getText()) == Integer.parseInt(quant) + 1);
@@ -77,10 +77,8 @@ public class Purchase {
         }
 
         driver.findElement(By.cssSelector("button[name=remove_cart_item]")).click();
-        Assert.assertTrue(!areElementsPresent(driver, By.cssSelector("table.dataTable.rounded-corners")));
         System.out.println("delete last good");
-
-
+        Assert.assertTrue(!areElementsPresent(driver, By.cssSelector("table.dataTable.rounded-corners")));
     }
 
     @AfterMethod

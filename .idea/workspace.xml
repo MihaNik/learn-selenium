@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9ab48be-ab78-43c0-922b-ea72dd7eb686" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/CheckLogs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageobject/pages/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageobject/pages/CartPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageobject/pages/GoodPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageobject/pages/MainPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageobject/pages/PageObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageobject/tests/CartTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageobject/tests/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Purchase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Purchase.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -58,14 +66,14 @@
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="Groovy" value="8" />
-          <entry key="JAVA" value="90" />
+          <entry key="JAVA" value="112" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="3" />
-          <entry key="JAVA" value="8082" />
+          <entry key="JAVA" value="9351" />
           <entry key="PLAIN_TEXT" value="13" />
         </counts>
       </usages-collector>
@@ -74,10 +82,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ProductsTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/SortCountries.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="37" column="46" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="46" />
+            <state relative-caret-position="425">
+              <caret line="36" column="45" lean-forward="true" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -86,19 +94,55 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/MenuNavigateTest2.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pageobject/pages/MainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+            <state relative-caret-position="408">
+              <caret line="47" column="20" lean-forward="true" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#662#663#0" expanded="true" />
+                <element signature="e#715#716#0" expanded="true" />
+                <element signature="e#910#911#0" expanded="true" />
+                <element signature="e#949#950#0" expanded="true" />
+                <element signature="e#899#900#0" expanded="true" />
+                <element signature="e#969#970#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ProductsTest2.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pageobject/pages/GoodPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="35" column="49" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
+            <state relative-caret-position="204">
+              <caret line="22" column="37" lean-forward="true" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+              <folding>
+                <element signature="e#652#653#0" expanded="true" />
+                <element signature="e#694#695#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pageobject/pages/CartPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="46" column="30" lean-forward="true" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pageobject/pages/PageObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="35" lean-forward="true" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#525#526#0" expanded="true" />
+                <element signature="e#567#568#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -106,48 +150,58 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/CheckWindows.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
+            <state relative-caret-position="867">
               <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pageobject/pages/Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-197">
+              <caret line="25" column="45" lean-forward="true" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
               <folding>
-                <element signature="e#572#573#0" expanded="true" />
-                <element signature="e#634#635#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#851#852#0" expanded="true" />
+                <element signature="e#880#881#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/CheckGood.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="20" column="68" selection-start-line="20" selection-end-line="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/CheckLogs.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pageobject/tests/CartTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="61" column="8" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
+            <state relative-caret-position="323">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/settings.gradle">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Purchase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="66" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="66" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/ArrayList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="1256" selection-start-line="1256" selection-end-line="1256" />
+            <state relative-caret-position="330">
+              <caret line="72" column="140" lean-forward="true" selection-start-line="72" selection-start-column="10" selection-end-line="72" selection-end-column="140" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -342,11 +396,11 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="6274404530031" />
+        <entry key="$PROJECT_DIR$" value="6283657958046" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/build.gradle" value="2289097744" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="2585518924" />
-        <entry key="$PROJECT_DIR$/settings.gradle" value="3203452672" />
+        <entry key="$PROJECT_DIR$/settings.gradle" value="2418288873" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -548,10 +602,17 @@
         <option value="$PROJECT_DIR$/src/test/java/MenuNavigateTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/СreateUser.java" />
         <option value="$PROJECT_DIR$/src/test/java/AddGood.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Purchase.java" />
         <option value="$PROJECT_DIR$/src/test/java/СreateCustomer.java" />
         <option value="$PROJECT_DIR$/src/test/java/CheckWindows.java" />
         <option value="$PROJECT_DIR$/src/test/java/CheckLogs.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pageobject/pages/PageObject.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pageobject/tests/TestBase.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pageobject/pages/GoodPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pageobject/pages/MainPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Purchase.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pageobject/tests/CartTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pageobject/pages/Application.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pageobject/pages/CartPage.java" />
       </list>
     </option>
   </component>
@@ -595,13 +656,6 @@
               <item name="test-selenium" type="b2602c69:ProjectViewProjectNode" />
               <item name="learn-selenium" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test-selenium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learn-selenium" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
@@ -613,100 +667,65 @@
             </path>
             <path>
               <item name="test-selenium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="test-selenium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="test-selenium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test-selenium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="learn-selenium" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pageobject" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="test-selenium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="learn-selenium" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="pageobject" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test-selenium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn-selenium" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pageobject" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="test-selenium" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: org.seleniumhq.selenium:selenium-api:3.141.59" type="70bed36:NamedLibraryElementNode" />
             </path>
             <path>
               <item name="test-selenium" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: org.seleniumhq.selenium:selenium-api:3.141.59" type="70bed36:NamedLibraryElementNode" />
-              <item name="selenium-api-3.141.59.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="Gradle: org.seleniumhq.selenium:selenium-support:3.141.59" type="70bed36:NamedLibraryElementNode" />
             </path>
             <path>
               <item name="test-selenium" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: org.seleniumhq.selenium:selenium-api:3.141.59" type="70bed36:NamedLibraryElementNode" />
-              <item name="selenium-api-3.141.59.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="Gradle: org.seleniumhq.selenium:selenium-support:3.141.59" type="70bed36:NamedLibraryElementNode" />
+              <item name="selenium-support-3.141.59.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test-selenium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.seleniumhq.selenium:selenium-support:3.141.59" type="70bed36:NamedLibraryElementNode" />
+              <item name="selenium-support-3.141.59.jar" type="462c0819:PsiDirectoryNode" />
               <item name="org" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="test-selenium" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: org.seleniumhq.selenium:selenium-api:3.141.59" type="70bed36:NamedLibraryElementNode" />
-              <item name="selenium-api-3.141.59.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="openqa" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test-selenium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: org.seleniumhq.selenium:selenium-api:3.141.59" type="70bed36:NamedLibraryElementNode" />
-              <item name="selenium-api-3.141.59.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="openqa" type="462c0819:PsiDirectoryNode" />
-              <item name="selenium" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test-selenium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: org.seleniumhq.selenium:selenium-remote-driver:3.141.59" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="test-selenium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: org.seleniumhq.selenium:selenium-remote-driver:3.141.59" type="70bed36:NamedLibraryElementNode" />
-              <item name="selenium-remote-driver-3.141.59.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test-selenium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: org.seleniumhq.selenium:selenium-remote-driver:3.141.59" type="70bed36:NamedLibraryElementNode" />
-              <item name="selenium-remote-driver-3.141.59.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test-selenium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: org.seleniumhq.selenium:selenium-remote-driver:3.141.59" type="70bed36:NamedLibraryElementNode" />
-              <item name="selenium-remote-driver-3.141.59.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="Gradle: org.seleniumhq.selenium:selenium-support:3.141.59" type="70bed36:NamedLibraryElementNode" />
+              <item name="selenium-support-3.141.59.jar" type="462c0819:PsiDirectoryNode" />
               <item name="org" type="462c0819:PsiDirectoryNode" />
               <item name="openqa" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="test-selenium" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: org.seleniumhq.selenium:selenium-remote-driver:3.141.59" type="70bed36:NamedLibraryElementNode" />
-              <item name="selenium-remote-driver-3.141.59.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="Gradle: org.seleniumhq.selenium:selenium-support:3.141.59" type="70bed36:NamedLibraryElementNode" />
+              <item name="selenium-support-3.141.59.jar" type="462c0819:PsiDirectoryNode" />
               <item name="org" type="462c0819:PsiDirectoryNode" />
               <item name="openqa" type="462c0819:PsiDirectoryNode" />
               <item name="selenium" type="462c0819:PsiDirectoryNode" />
@@ -714,47 +733,23 @@
             <path>
               <item name="test-selenium" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: org.seleniumhq.selenium:selenium-remote-driver:3.141.59" type="70bed36:NamedLibraryElementNode" />
-              <item name="selenium-remote-driver-3.141.59.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="Gradle: org.seleniumhq.selenium:selenium-support:3.141.59" type="70bed36:NamedLibraryElementNode" />
+              <item name="selenium-support-3.141.59.jar" type="462c0819:PsiDirectoryNode" />
               <item name="org" type="462c0819:PsiDirectoryNode" />
               <item name="openqa" type="462c0819:PsiDirectoryNode" />
               <item name="selenium" type="462c0819:PsiDirectoryNode" />
-              <item name="remote" type="462c0819:PsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="test-selenium" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: org.testng:testng:7.0.0" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="test-selenium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: org.testng:testng:7.0.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="testng-7.0.0.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test-selenium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: org.testng:testng:7.0.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="testng-7.0.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="Gradle: org.seleniumhq.selenium:selenium-support:3.141.59" type="70bed36:NamedLibraryElementNode" />
+              <item name="selenium-support-3.141.59.jar" type="462c0819:PsiDirectoryNode" />
               <item name="org" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test-selenium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: org.testng:testng:7.0.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="testng-7.0.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="testng" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test-selenium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: org.testng:testng:7.0.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="testng-7.0.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="testng" type="462c0819:PsiDirectoryNode" />
-              <item name="internal" type="462c0819:PsiDirectoryNode" />
+              <item name="openqa" type="462c0819:PsiDirectoryNode" />
+              <item name="selenium" type="462c0819:PsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -765,11 +760,12 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577374524088" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577391656306" />
     <property name="last_opened_file_path" value="E:/WebPrismaQA" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pageobject.pages" />
       <recent name="" />
     </key>
   </component>
@@ -785,11 +781,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.CheckLogs">
-    <configuration name="CheckGood" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.CartTest">
+    <configuration name="CartTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="test-selenium_test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CheckGood" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pageobject.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pageobject.tests" />
+      <option name="MAIN_CLASS_NAME" value="pageobject.tests.CartTest" />
       <properties />
       <listeners />
       <method v="2">
@@ -837,19 +839,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.CheckGood" />
       <item itemvalue="TestNG.СreateCustomer" />
       <item itemvalue="TestNG.Purchase" />
       <item itemvalue="TestNG.CheckWindows" />
       <item itemvalue="TestNG.CheckLogs" />
+      <item itemvalue="TestNG.CartTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.CartTest" />
+        <item itemvalue="TestNG.Purchase" />
         <item itemvalue="TestNG.CheckLogs" />
         <item itemvalue="TestNG.CheckWindows" />
         <item itemvalue="TestNG.СreateCustomer" />
-        <item itemvalue="TestNG.Purchase" />
-        <item itemvalue="TestNG.CheckGood" />
       </list>
     </recent_temporary>
   </component>
@@ -867,40 +869,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CheckLogs - 2019.12.26 at 17h 49m 26s.xml">
-      <configuration name="CheckLogs" configurationId="TestNG" />
+    <history-entry file="CartTest - 2019.12.26 at 22h 13m 02s.xml">
+      <configuration name="CartTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CheckLogs - 2019.12.26 at 18h 03m 20s.xml">
-      <configuration name="CheckLogs" configurationId="TestNG" />
+    <history-entry file="CartTest - 2019.12.26 at 22h 24m 56s.xml">
+      <configuration name="CartTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CheckLogs - 2019.12.26 at 18h 04m 21s.xml">
-      <configuration name="CheckLogs" configurationId="TestNG" />
+    <history-entry file="CartTest - 2019.12.26 at 22h 56m 18s.xml">
+      <configuration name="CartTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CheckLogs - 2019.12.26 at 18h 10m 15s.xml">
-      <configuration name="CheckLogs" configurationId="TestNG" />
+    <history-entry file="CartTest - 2019.12.26 at 22h 58m 18s.xml">
+      <configuration name="CartTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CheckLogs - 2019.12.26 at 18h 23m 56s.xml">
-      <configuration name="CheckLogs" configurationId="TestNG" />
+    <history-entry file="CartTest - 2019.12.26 at 22h 59m 57s.xml">
+      <configuration name="CartTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CheckLogs - 2019.12.26 at 18h 25m 05s.xml">
-      <configuration name="CheckLogs" configurationId="TestNG" />
+    <history-entry file="CartTest - 2019.12.26 at 23h 01m 50s.xml">
+      <configuration name="CartTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CheckLogs - 2019.12.26 at 18h 28m 47s.xml">
-      <configuration name="CheckLogs" configurationId="TestNG" />
+    <history-entry file="CartTest - 2019.12.26 at 23h 04m 45s.xml">
+      <configuration name="CartTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CheckLogs - 2019.12.26 at 18h 29m 30s.xml">
-      <configuration name="CheckLogs" configurationId="TestNG" />
+    <history-entry file="CartTest - 2019.12.26 at 23h 07m 17s.xml">
+      <configuration name="CartTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CheckLogs - 2019.12.26 at 18h 31m 30s.xml">
-      <configuration name="CheckLogs" configurationId="TestNG" />
+    <history-entry file="CartTest - 2019.12.26 at 23h 10m 45s.xml">
+      <configuration name="CartTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CheckLogs - 2019.12.26 at 18h 34m 36s.xml">
-      <configuration name="CheckLogs" configurationId="TestNG" />
+    <history-entry file="CartTest - 2019.12.26 at 23h 16m 47s.xml">
+      <configuration name="CartTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2835821" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -980,13 +981,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Integer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
@@ -998,20 +992,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9775">
           <caret line="616" selection-start-line="616" selection-end-line="616" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/SimpleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/BrowserSettings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="24" column="48" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="48" />
         </state>
       </provider>
     </entry>
@@ -1059,26 +1039,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/СreateCustomer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="43" column="43" lean-forward="true" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/AddGood.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ElementsSearchTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -1086,40 +1046,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Purchase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="56" column="71" lean-forward="true" selection-start-line="55" selection-start-column="7" selection-end-line="56" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#954#955#0" expanded="true" />
-            <element signature="e#1016#1017#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/CheckWindows.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
-          <folding>
-            <element signature="e#572#573#0" expanded="true" />
-            <element signature="e#634#635#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MenuNavigateTest2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="211">
-          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ProductsTest2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="35" column="49" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
         </state>
       </provider>
     </entry>
@@ -1127,6 +1057,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
           <caret line="1256" selection-start-line="1256" selection-end-line="1256" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ProductsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="37" column="46" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/CheckLogs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
@@ -1144,9 +1098,67 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SimpleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-support/3.141.59/7e42f1c3e43d22f2c299b74356137dc6f2f455ec/selenium-support-3.141.59-sources.jar!/org/openqa/selenium/support/ui/Select.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="223" selection-start-line="223" selection-end-line="223" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ProductsTest2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="28" column="45" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/BrowserSettings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="24" column="48" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/СreateCustomer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="36" column="71" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="36" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageobject/tests/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="33" lean-forward="true" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/AddGood.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="19" column="31" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/CheckGood.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
+        <state relative-caret-position="136">
           <caret line="20" column="68" selection-start-line="20" selection-end-line="21" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1156,28 +1168,96 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SortCountries.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="59" column="57" lean-forward="true" selection-start-line="59" selection-start-column="57" selection-end-line="59" selection-end-column="57" />
+        <state relative-caret-position="425">
+          <caret line="36" column="45" lean-forward="true" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ProductsTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/CheckWindows.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="37" column="46" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="46" />
+        <state relative-caret-position="867">
+          <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageobject/pages/GoodPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="22" column="37" lean-forward="true" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+          <folding>
+            <element signature="e#652#653#0" expanded="true" />
+            <element signature="e#694#695#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageobject/pages/PageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="35" lean-forward="true" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
+            <element signature="e#567#568#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageobject/pages/MainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="47" column="20" lean-forward="true" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#662#663#0" expanded="true" />
+            <element signature="e#715#716#0" expanded="true" />
+            <element signature="e#910#911#0" expanded="true" />
+            <element signature="e#949#950#0" expanded="true" />
+            <element signature="e#899#900#0" expanded="true" />
+            <element signature="e#969#970#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageobject/pages/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-197">
+          <caret line="25" column="45" lean-forward="true" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#851#852#0" expanded="true" />
+            <element signature="e#880#881#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Purchase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="72" column="140" lean-forward="true" selection-start-line="72" selection-start-column="10" selection-end-line="72" selection-end-column="140" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/CheckLogs.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageobject/pages/CartPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="61" column="8" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
+        <state relative-caret-position="442">
+          <caret line="46" column="30" lean-forward="true" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageobject/tests/CartTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
