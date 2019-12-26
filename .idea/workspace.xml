@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9ab48be-ab78-43c0-922b-ea72dd7eb686" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/CheckWindows.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CheckLogs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -57,15 +57,15 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="Groovy" value="6" />
-          <entry key="JAVA" value="87" />
+          <entry key="Groovy" value="8" />
+          <entry key="JAVA" value="90" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="3" />
-          <entry key="JAVA" value="7763" />
+          <entry key="JAVA" value="8082" />
           <entry key="PLAIN_TEXT" value="13" />
         </counts>
       </usages-collector>
@@ -74,50 +74,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/SortCountries.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ProductsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="21" column="3" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="23" selection-end-column="5" />
+            <state relative-caret-position="595">
+              <caret line="37" column="46" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/СreateCustomer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="43" column="43" lean-forward="true" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/CheckGood.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="20" column="68" selection-start-line="20" selection-end-line="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Purchase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="56" column="71" lean-forward="true" selection-start-line="55" selection-start-column="7" selection-end-line="56" selection-end-column="71" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#954#955#0" expanded="true" />
-                <element signature="e#1016#1017#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -126,20 +88,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/MenuNavigateTest2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="568">
+            <state relative-caret-position="211">
               <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/AddGood.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -147,39 +97,57 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ProductsTest2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="357">
               <caret line="35" column="49" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ElementsSearchTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/CheckWindows.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="28" column="60" selection-start-line="28" selection-start-column="60" selection-end-line="28" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/LoginExampleTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="22" column="64" selection-start-line="22" selection-start-column="64" selection-end-line="22" selection-end-column="64" />
+            <state relative-caret-position="510">
+              <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
+              <folding>
+                <element signature="e#572#573#0" expanded="true" />
+                <element signature="e#634#635#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/CheckWindows.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/CheckLogs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="64" column="50" lean-forward="true" selection-start-line="64" selection-start-column="50" selection-end-line="64" selection-end-column="50" />
-              <folding>
-                <element signature="e#572#573#0" expanded="true" />
-                <element signature="e#634#635#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="461">
+              <caret line="61" column="8" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/settings.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="66" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/ArrayList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="197">
+              <caret line="1256" selection-start-line="1256" selection-end-line="1256" />
             </state>
           </provider>
         </entry>
@@ -583,6 +551,7 @@
         <option value="$PROJECT_DIR$/src/test/java/Purchase.java" />
         <option value="$PROJECT_DIR$/src/test/java/СreateCustomer.java" />
         <option value="$PROJECT_DIR$/src/test/java/CheckWindows.java" />
+        <option value="$PROJECT_DIR$/src/test/java/CheckLogs.java" />
       </list>
     </option>
   </component>
@@ -796,7 +765,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577367257875" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577374524088" />
     <property name="last_opened_file_path" value="E:/WebPrismaQA" />
   </component>
   <component name="RecentsManager">
@@ -816,11 +785,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.CheckWindows">
+  <component name="RunManager" selected="TestNG.CheckLogs">
     <configuration name="CheckGood" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="test-selenium_test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="CheckGood" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CheckLogs" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="test-selenium_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CheckLogs" />
       <properties />
       <listeners />
       <method v="2">
@@ -847,16 +826,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortCountries" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="test-selenium_test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SortCountries" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="СreateCustomer" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="test-selenium_test" />
       <option name="PACKAGE_NAME" value="" />
@@ -868,19 +837,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.SortCountries" />
       <item itemvalue="TestNG.CheckGood" />
       <item itemvalue="TestNG.СreateCustomer" />
       <item itemvalue="TestNG.Purchase" />
       <item itemvalue="TestNG.CheckWindows" />
+      <item itemvalue="TestNG.CheckLogs" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.CheckLogs" />
         <item itemvalue="TestNG.CheckWindows" />
         <item itemvalue="TestNG.СreateCustomer" />
         <item itemvalue="TestNG.Purchase" />
         <item itemvalue="TestNG.CheckGood" />
-        <item itemvalue="TestNG.SortCountries" />
       </list>
     </recent_temporary>
   </component>
@@ -898,42 +867,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CheckWindows - 2019.12.26 at 15h 08m 03s.xml">
-      <configuration name="CheckWindows" configurationId="TestNG" />
+    <history-entry file="CheckLogs - 2019.12.26 at 17h 49m 26s.xml">
+      <configuration name="CheckLogs" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CheckWindows - 2019.12.26 at 15h 16m 59s.xml">
-      <configuration name="CheckWindows" configurationId="TestNG" />
+    <history-entry file="CheckLogs - 2019.12.26 at 18h 03m 20s.xml">
+      <configuration name="CheckLogs" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CheckWindows - 2019.12.26 at 15h 18m 50s.xml">
-      <configuration name="CheckWindows" configurationId="TestNG" />
+    <history-entry file="CheckLogs - 2019.12.26 at 18h 04m 21s.xml">
+      <configuration name="CheckLogs" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CheckWindows - 2019.12.26 at 15h 41m 39s.xml">
-      <configuration name="CheckWindows" configurationId="TestNG" />
+    <history-entry file="CheckLogs - 2019.12.26 at 18h 10m 15s.xml">
+      <configuration name="CheckLogs" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CheckWindows - 2019.12.26 at 16h 14m 01s.xml">
-      <configuration name="CheckWindows" configurationId="TestNG" />
+    <history-entry file="CheckLogs - 2019.12.26 at 18h 23m 56s.xml">
+      <configuration name="CheckLogs" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CheckWindows - 2019.12.26 at 16h 16m 34s.xml">
-      <configuration name="CheckWindows" configurationId="TestNG" />
+    <history-entry file="CheckLogs - 2019.12.26 at 18h 25m 05s.xml">
+      <configuration name="CheckLogs" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CheckWindows - 2019.12.26 at 16h 22m 39s.xml">
-      <configuration name="CheckWindows" configurationId="TestNG" />
+    <history-entry file="CheckLogs - 2019.12.26 at 18h 28m 47s.xml">
+      <configuration name="CheckLogs" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CheckWindows - 2019.12.26 at 16h 26m 35s.xml">
-      <configuration name="CheckWindows" configurationId="TestNG" />
+    <history-entry file="CheckLogs - 2019.12.26 at 18h 29m 30s.xml">
+      <configuration name="CheckLogs" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CheckWindows - 2019.12.26 at 16h 27m 56s.xml">
-      <configuration name="CheckWindows" configurationId="TestNG" />
+    <history-entry file="CheckLogs - 2019.12.26 at 18h 31m 30s.xml">
+      <configuration name="CheckLogs" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CheckWindows - 2019.12.26 at 16h 29m 41s.xml">
-      <configuration name="CheckWindows" configurationId="TestNG" />
+    <history-entry file="CheckLogs - 2019.12.26 at 18h 34m 36s.xml">
+      <configuration name="CheckLogs" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2835821" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2835821" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -942,7 +911,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1025,20 +994,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/7.0.0/5a0241ace5a7b8eb3d31556a7d5dd2b3aae9baf/testng-7.0.0-sources.jar!/org/testng/internal/TestInvoker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9775">
@@ -1050,16 +1005,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ProductsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="37" column="46" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1107,24 +1052,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="1256" selection-start-line="1256" selection-end-line="1256" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/LoginExampleTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="22" column="64" selection-start-line="22" selection-start-column="64" selection-end-line="22" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ProductsTest2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="35" column="49" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
         </state>
       </provider>
     </entry>
@@ -1167,26 +1098,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/CheckWindows.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
+          <folding>
+            <element signature="e#572#573#0" expanded="true" />
+            <element signature="e#634#635#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MenuNavigateTest2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="568">
+        <state relative-caret-position="211">
           <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/SortCountries.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ProductsTest2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="21" column="3" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="23" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="357">
+          <caret line="35" column="49" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="1256" selection-start-line="1256" selection-end-line="1256" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="66" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="66" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/CheckGood.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
+        <state relative-caret-position="289">
           <caret line="20" column="68" selection-start-line="20" selection-end-line="21" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1194,14 +1154,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/CheckWindows.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/SortCountries.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="64" column="50" lean-forward="true" selection-start-line="64" selection-start-column="50" selection-end-line="64" selection-end-column="50" />
+        <state relative-caret-position="510">
+          <caret line="59" column="57" lean-forward="true" selection-start-line="59" selection-start-column="57" selection-end-line="59" selection-end-column="57" />
           <folding>
-            <element signature="e#572#573#0" expanded="true" />
-            <element signature="e#634#635#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ProductsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="37" column="46" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/CheckLogs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="61" column="8" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
         </state>
       </provider>
     </entry>
